@@ -42,6 +42,7 @@ GEM
     arel (8.0.0)
     autoprefixer-rails (9.5.1.1)
       execjs
+    bcrypt (3.1.12)
     bindex (0.7.0)
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
@@ -117,6 +118,8 @@ GEM
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
+    pry-nav (0.3.0)
+      pry (>= 0.9.10, < 0.13.0)
     puma (3.9.1)
     rack (2.0.7)
     rack-test (1.1.0)
@@ -203,6 +206,7 @@ PLATFORMS
 
 DEPENDENCIES
   actionview (>= 5.1.6.2)
+  bcrypt
   bootstrap-sass (= 3.3.7)
   byebug (= 9.0.6)
   coffee-rails (= 4.2.2)
@@ -214,6 +218,7 @@ DEPENDENCIES
   minitest (= 5.11.3)
   minitest-reporters (= 1.1.14)
   pg (= 0.20.0)
+  pry-nav
   puma (= 3.9.1)
   rails (= 5.1.7)
   rails-controller-testing (= 1.0.2)
